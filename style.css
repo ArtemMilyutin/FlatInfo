@@ -1,0 +1,57 @@
+.form {
+  background-color: rgb(246, 240, 255);
+  margin-left: 40%;
+  margin-right: 40%;
+  border: 2.5px solid rgb(137, 51, 235);
+  border-radius: 3px;
+  width: 30%;
+  padding: 8px;
+  text-align: right;
+}
+
+.input {
+  border: 2.5px solid rgb(137, 51, 235);
+  border-radius: 4px;
+  width: 60%;
+  margin: 5px;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(137, 51, 235) #000 #8306d7;
+  border-radius: 3px;
+  background: linear-gradient(rgb(137, 51, 235), rgb(27, 91, 175)) #8306d7;
+  transition: 0.2s;
+}
+
+.table {
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  text-align: center;
+  border-color: rgb(137, 51, 235) #000 #8306d7;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background: linear-gradient(rgb(137, 51, 235), rgb(27, 91, 175)) #8306d7;
+  border: 1px solid #dddddd;
+  color: white;
+  border-color: rgb(137, 51, 235) #000 #8306d7;
+}
+
+.table td {
+  border: 1px solid;
+  padding: 5px;
+  border-color: rgb(137, 51, 235) #000 #8306d7;
+}
